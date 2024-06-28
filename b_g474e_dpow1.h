@@ -53,11 +53,11 @@ typedef void (* BSP_EXTI_LineCallback) (void);
   */
 
 /**
- * @brief B-G474E-DPOW1 BSP Driver version number V1.1.3
+ * @brief B-G474E-DPOW1 BSP Driver version number V1.1.5
    */
 #define	B_G474E_DPOW1_BSP_VERSION_MAIN   (uint32_t)(0x01) /*!< [31:24] main version */
 #define	B_G474E_DPOW1_BSP_VERSION_SUB1   (uint32_t)(0x01) /*!< [23:16] sub1 version */
-#define	B_G474E_DPOW1_BSP_VERSION_SUB2   (uint32_t)(0x03) /*!< [15:8]  sub2 version */
+#define	B_G474E_DPOW1_BSP_VERSION_SUB2   (uint32_t)(0x05) /*!< [15:8]  sub2 version */
 #define	B_G474E_DPOW1_BSP_VERSION_RC     (uint32_t)(0x00) /*!< [7:0]  release candidate */
 #define	B_G474E_DPOW1_BSP_VERSION        ((B_G474E_DPOW1_BSP_VERSION_MAIN << 24)\
                                          |(B_G474E_DPOW1_BSP_VERSION_SUB1 << 16)\
